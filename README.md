@@ -1,27 +1,38 @@
-# BookStore Pro v2.0
+# [BookStore-Platform]
 
-A React.js based online bookstore web app.
+A full-stack web application for [short 1-line project description, e.g., real-time messaging with instant notifications]. Built with [Main Tech Stack, e.g., React, Node.js, Express, and MongoDB].
 
-## What's New in v2.0
-* Renamed branding to BookStore across headers, footers, and invoices.
-* Added live order tracking with step-by-step parcel timeline (Placed -> Packed -> In Transit -> Out for Delivery -> Delivered).
-* Shows courier partner details, AWB numbers, and transit location. Admin can also update location manually.
-* Created user dashboard to track total books bought, total expense, active orders, and wallet balance.
-* Added printable GST tax invoice modal with direct window.print() support.
-* Fixed syntax issues and unescaped apostrophe bugs.
+## Features
 
-## How to Run
+- **User Authentication:** Secure signup and login using JWT.
+- **Real-Time Updates:** Instant communication using Socket.IO.
+- **State Management:** Clean global state management on the frontend.
+- **Database Integration:** Scalable data storage with MongoDB.
+- **Responsive UI:** Fully responsive design built with Tailwind CSS.
 
-1. Open project folder in terminal / VS Code.
-2. Install dependencies:
-   npm install
+## Tech Stack
 
-3. Run the project:
-   npm start
+- **Frontend:** React, HTML5, CSS3/Tailwind CSS, JavaScript (ES6+)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB / Mongoose
+- **Real-time:** Socket.IO
+- **Deployment:** Render (Backend), Vercel (Frontend)
 
-Local server will start at http://localhost:3000.
+## Getting Started
 
-## Demo Accounts & Coupons
-* Student Login: Prince Kumar
-* Admin Login: Store Admin / Manager
-* Checkout Coupon: Use `BOOK50` for 50% off.
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your system.
+
+- Node.js (v16 or higher)
+- npm (v8 or higher)
+- MongoDB running locally or a MongoDB Atlas URI
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name
